@@ -4,10 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>калькулятор</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <input type="text" id="wc" value="0"/>
+    <table>
+        <tr>
+            <td class="digit" data-value = "9">9</td>
+            <td class="digit" data-value = "8">8</td>
+            <td class="digit" data-value = "7">7</td>
+            <td class="action" data-value = "div">/</td>
+        </tr>
+        <tr>
+            <td class="digit" data-value = "6">6</td>
+            <td class="digit" data-value = "5">5</td>
+            <td class="digit" data-value = "4">4</td>
+            <td class="action" data-value = "mul">*</td>
+        </tr>
+        <tr>
+            <td class="digit" data-value = "3">3</td>
+            <td class="digit" data-value = "2">2</td>
+            <td class="digit" data-value = "1">1</td>
+            <td class="action" data-value = "sum">+</td>
+        </tr>
+        <tr>
+            <td id="clear">C</td>
+            <td class="digit" data-value = "0">0</td>
+            <td id="equally">=</td>
+            <td class="action" data-value = "sub">-</td>
+        </tr>
+        <tr>
+            <td id="point">.</td>
+            
+        </tr>
+
+    </table>
+
     
-    <script src="/script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
